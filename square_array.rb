@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+array.each {|num| puts num**=2}
 end
